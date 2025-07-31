@@ -1,0 +1,25 @@
+{% load static %}
+{% include "components/header.html" %}
+{% block content %}
+<div class="container py-5" id="about">
+  <div class="row align-items-center">
+    <div class="col-md-6">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Pudu_puda.jpg/800px-Pudu_puda.jpg" class="img-fluid rounded shadow" alt="Foto del pudú o tu retrato">
+    </div>
+    <div class="col-md-6">
+      <h2 class="fw-bold mb-3">Sobre Mí</h2>
+      <p>
+        ¡Hola! Soy Juan Developer, un apasionado desarrollador web con experiencia en frontend y backend.
+        Me encanta crear sitios web limpios, responsivos y funcionales. Trabajo con tecnologías como Django,
+        React, Bootstrap, y más.
+      </p>
+      <p>
+        Además del código, me interesan los proyectos que aportan valor social y educativo. Me enfoco en
+        aprender constantemente y mejorar tanto en lo técnico como en lo humano.
+      </p>
+      <a href="#projects" class="btn btn-outline-primary mt-3">Ver proyectos</a>
+    </div>
+  </div>
+</div>
+{% endblock %}
+{% include "components/footer.html" %}
